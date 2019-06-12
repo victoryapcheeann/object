@@ -68,7 +68,7 @@ webcam_init()
     const font = "16px sans-serif";
     ctx.font = font;
     ctx.textBaseline = "top";
-    ctx.drawImage(this.video,0, 0,300,300);
+    ctx.drawImage(this.video,0, 0,1000,1000);
 
     predictions.forEach(prediction => {
       const x = prediction.bbox[0];
