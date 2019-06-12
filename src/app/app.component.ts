@@ -60,8 +60,8 @@ webcam_init()
     
     const ctx = canvas.getContext("2d");
     
-    canvas.width  = 300;
-    canvas.height = 300;
+    canvas.width  = 1000;
+    canvas.height = 1000;
 
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     // Font options.
