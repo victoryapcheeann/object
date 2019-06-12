@@ -3,7 +3,7 @@
 .mainContainer {
     position: relative;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
 }
